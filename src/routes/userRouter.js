@@ -4,6 +4,7 @@ const userModel = require('../models/user.js');
 const controller = require('../controllers/modelController');
 const routerPath = "/users";
 const { check, validationResult } = require('express-validator');
+const bcrypt = require('bcryptjs');
 
 // Create validation schema for update request body
 
@@ -14,13 +15,16 @@ const validationChain = [
 ];
 
 
-const skipPrivateFields = (req, res, next) => {
-    req.query.select = "-password -otp -otpExpire";
+const hashPassword = async (req, res, next) => {
+    const { password } = req.body;
+    const salt = await bcrypt.genSalt(10);
+    const hashedOtp = await bcrypt.hash(password.toString(), salt);
+    req.body.password = hashedOtp;
     next();
 };
 
 
-router.post(routerPath, validationChain, (req, res) => {
+router.post(routerPath, validationChain, hashPassword, (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(422).json({ errors: errors.array() });
@@ -28,10 +32,10 @@ router.post(routerPath, validationChain, (req, res) => {
     controller.create(userModel)(req, res);
 });
 
-router.get(routerPath, skipPrivateFields, controller.find(userModel));
-router.get(routerPath + '/:id', skipPrivateFields, controller.findOne(userModel));
+router.get(routerPath, controller.find(userModel));
+router.get(routerPath + '/:id', controller.findOne(userModel));
 
-router.put(routerPath + '/:id', validationChain, (req, res) => {
+router.put(routerPath + '/:id', validationChain, hashPassword, (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(422).json({ errors: errors.array() });
