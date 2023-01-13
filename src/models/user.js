@@ -29,15 +29,15 @@ const userSchema = new mongoose.Schema({
     },
     judge: {
         type: String,
-        required: true
+        required: false
     },
     rank: {
         type: Number,
-        required: true
+        required: false
     },
     totalSolvedProblems: {
         type: Number,
-        required: true
+        required: false
     }
 });
 
