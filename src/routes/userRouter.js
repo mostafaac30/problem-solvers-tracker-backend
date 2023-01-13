@@ -13,6 +13,13 @@ const validationChain = [
     check('password', 'Please enter a password length more than 5').optional().isLength({ min: 6 }),
 ];
 
+
+const skipPasswordField = (req, res, next) => {
+    req.query.select = "-password";
+    next();
+};
+
+
 router.post(routerPath, validationChain, (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -21,8 +28,8 @@ router.post(routerPath, validationChain, (req, res) => {
     controller.create(userModel)(req, res);
 });
 
-router.get(routerPath, controller.find(userModel));
-router.get(routerPath + '/:id', controller.findOne(userModel));
+router.get(routerPath, skipPasswordField, controller.find(userModel));
+router.get(routerPath + '/:id', skipPasswordField, controller.findOne(userModel));
 
 router.put(routerPath + '/:id', validationChain, (req, res) => {
     const errors = validationResult(req);
