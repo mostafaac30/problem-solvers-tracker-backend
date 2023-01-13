@@ -14,7 +14,7 @@ router.post('/register', [
     if (!errors.isEmpty()) {
         return res.status(422).json({ errors: errors.array() });
     };
-    authController.register
+    authController.register(req, res);
 });
 
 router.post('/login', authController.login);

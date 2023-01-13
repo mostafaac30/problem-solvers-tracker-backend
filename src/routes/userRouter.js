@@ -3,11 +3,36 @@ const router = express.Router();
 const userModel = require('../models/user.js');
 const controller = require('../controllers/modelController');
 const routerPath = "/users";
+const { check, validationResult } = require('express-validator');
 
-router.post(routerPath, controller.create(userModel));
+// Create validation schema for update request body
+
+const validationChain = [
+    check('username', 'Please enter a valid username').optional().not().isEmpty(),
+    check('email', 'Please enter a valid email').optional().isEmail(),
+    check('password', 'Please enter a password length more than 5').optional().isLength({ min: 6 }),
+];
+
+router.post(routerPath, validationChain, (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(422).json({ errors: errors.array() });
+    };
+    controller.create(userModel)(req, res);
+});
+
 router.get(routerPath, controller.find(userModel));
 router.get(routerPath + '/:id', controller.findOne(userModel));
-router.put(routerPath + '/:id', controller.update(userModel));
+
+router.put(routerPath + '/:id', validationChain, (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(422).json({ errors: errors.array() });
+    };
+
+    controller.update(userModel)(req, res);
+});
+
 router.delete(routerPath + '/:id', controller.remove(userModel));
 
 module.exports = router;
