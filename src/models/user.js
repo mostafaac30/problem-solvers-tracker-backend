@@ -21,11 +21,11 @@ const userSchema = new mongoose.Schema({
     },
     pushToken: {
         type: String,
-        required: true
+        required: false
     },
     deviceType: {
         type: String,
-        required: true
+        required: false
     },
     judge: {
         type: String,

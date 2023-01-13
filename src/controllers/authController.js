@@ -1,23 +1,31 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
+const judgeController = require('../controllers/judgeController');
 
 const register = (req, res) => {
 
-    const { username, email, password } = req.body;
+    const { username, email, password, judge } = req.body;
     // Simple validation
     if (!username || !email || !password) {
         return res.status(400).json({ msg: 'Please enter all fields' });
     }
 
     // Check for existing user
-    User.findOne({ email }).then(user => {
+    User.findOne({ email }).then(async user => {
         if (user) return res.status(400).json({ msg: 'User already exists' });
-
+        const info = await judgeController.getSolvedProblemsByUsername(username);
+        const rank = info.matchedUser.profile.ranking;
+        const totalSolvedProblems = info.matchedUser.submitStats.acSubmissionNum[0].count;
+        console.log(rank);
+        console.log(totalSolvedProblems);
         const newUser = new User({
             username,
             email,
-            password
+            password,
+            judge,
+            rank,
+            totalSolvedProblems
         });
 
         // Hash the password
@@ -38,7 +46,10 @@ const register = (req, res) => {
                                     user: {
                                         id: user.id,
                                         username: user.username,
-                                        email: user.email
+                                        email: user.email,
+                                        judge: user.judge,
+                                        rank: user.rank,
+                                        totalSolvedProblems: user.totalSolvedProblems
                                     }
                                 });
                             }

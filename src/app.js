@@ -17,6 +17,21 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// const register = require('./controllers/authController').register;
+// register({
+//   body: {
+//     username: "test",
+//     email: "test",
+//     password: "test",
+//     judge: "test"
+//   }
+// },
+//   {
+//     json: (data) => { console.log(data) },
+//     status: (code) => { return { json: (data) => { console.log(data) } } }
+//   }
+// );
+
 // Use the user router for requests to the /user endpoint
 app.use('/user', userRouter);
 // Use the auth router for requests to the /auth endpoint
