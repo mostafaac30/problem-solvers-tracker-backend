@@ -1,0 +1,249 @@
+{
+    "allQuestionsCount": [
+        {
+            "difficulty": "All",
+            "count": 2533
+        },
+        {
+            "difficulty": "Easy",
+            "count": 620
+        },
+        {
+            "difficulty": "Medium",
+            "count": 1349
+        },
+        {
+            "difficulty": "Hard",
+            "count": 564
+        }
+    ],
+    "matchedUser": {
+        "username": "Mostafa_M",
+        "socialAccounts": null,
+        "githubUrl": "https://github.com/mostafaac30",
+        "contributions": {
+            "points": 157,
+            "questionCount": 0,
+            "testcaseCount": 0
+        },
+        "profile": {
+            "realName": "Mostafa Mahmoud",
+            "websites": [],
+            "countryName": "Egypt",
+            "skillTags": [],
+            "company": null,
+            "school": null,
+            "starRating": 1.5,
+            "aboutMe": "love CS",
+            "userAvatar": "https://assets.leetcode.com/users/avatars/avatar_1652286524.png",
+            "reputation": 23,
+            "ranking": 724711
+        },
+        "submissionCalendar": "{\"1673395200\": 1, \"1648944000\": 2, \"1650931200\": 3, \"1651104000\": 10, \"1651190400\": 2, \"1651276800\": 14, \"1651363200\": 20, \"1651622400\": 11, \"1651708800\": 7, \"1651795200\": 2, \"1651881600\": 11, \"1651968000\": 13, \"1652054400\": 2, \"1652140800\": 3, \"1652227200\": 36, \"1652400000\": 1, \"1652486400\": 18, \"1652572800\": 4, \"1652659200\": 1, \"1652745600\": 1, \"1652832000\": 2, \"1652918400\": 2, \"1653523200\": 1, \"1653609600\": 3, \"1654387200\": 10, \"1654473600\": 6, \"1659139200\": 2, \"1666224000\": 1, \"1666569600\": 1, \"1671408000\": 5}",
+        "submitStats": {
+            "acSubmissionNum": [
+                {
+                    "difficulty": "All",
+                    "count": 73,
+                    "submissions": 113
+                },
+                {
+                    "difficulty": "Easy",
+                    "count": 61,
+                    "submissions": 88
+                },
+                {
+                    "difficulty": "Medium",
+                    "count": 12,
+                    "submissions": 25
+                },
+                {
+                    "difficulty": "Hard",
+                    "count": 0,
+                    "submissions": 0
+                }
+            ],
+            "totalSubmissionNum": [
+                {
+                    "difficulty": "All",
+                    "count": 81,
+                    "submissions": 195
+                },
+                {
+                    "difficulty": "Easy",
+                    "count": 65,
+                    "submissions": 148
+                },
+                {
+                    "difficulty": "Medium",
+                    "count": 15,
+                    "submissions": 46
+                },
+                {
+                    "difficulty": "Hard",
+                    "count": 1,
+                    "submissions": 1
+                }
+            ]
+        },
+        "badges": [
+            {
+                "id": "752620",
+                "displayName": "Binary Search I",
+                "icon": "https://assets.leetcode.com/static_assets/others/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE_%E5%85%A5%E9%97%A8.png",
+                "creationDate": "2022-05-11"
+            }
+        ],
+        "upcomingBadges": [
+            {
+                "name": "Jan LeetCoding Challenge",
+                "icon": "/static/images/badges/dcc-2023-1.png"
+            }
+        ],
+        "activeBadge": {
+            "id": "752620"
+        }
+    },
+    "recentSubmissionList": [
+        {
+            "title": "Remove Element",
+            "titleSlug": "remove-element",
+            "timestamp": "1673468106",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Set Mismatch",
+            "titleSlug": "set-mismatch",
+            "timestamp": "1671470042",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Missing Number",
+            "titleSlug": "missing-number",
+            "timestamp": "1671468668",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Missing Number",
+            "titleSlug": "missing-number",
+            "timestamp": "1671468043",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Majority Element",
+            "titleSlug": "majority-element",
+            "timestamp": "1671465901",
+            "statusDisplay": "Accepted",
+            "lang": "typescript"
+        },
+        {
+            "title": "Majority Element",
+            "titleSlug": "majority-element",
+            "timestamp": "1671465682",
+            "statusDisplay": "Wrong Answer",
+            "lang": "typescript"
+        },
+        {
+            "title": "Remove Linked List Elements",
+            "titleSlug": "remove-linked-list-elements",
+            "timestamp": "1666596408",
+            "statusDisplay": "Runtime Error",
+            "lang": "typescript"
+        },
+        {
+            "title": "Sort Colors",
+            "titleSlug": "sort-colors",
+            "timestamp": "1666246094",
+            "statusDisplay": "Accepted",
+            "lang": "typescript"
+        },
+        {
+            "title": "Word Subsets",
+            "titleSlug": "word-subsets",
+            "timestamp": "1659164646",
+            "statusDisplay": "Wrong Answer",
+            "lang": "javascript"
+        },
+        {
+            "title": "Word Subsets",
+            "titleSlug": "word-subsets",
+            "timestamp": "1659162816",
+            "statusDisplay": "Wrong Answer",
+            "lang": "javascript"
+        },
+        {
+            "title": "Palindrome Linked List",
+            "titleSlug": "palindrome-linked-list",
+            "timestamp": "1654552945",
+            "statusDisplay": "Time Limit Exceeded",
+            "lang": "cpp"
+        },
+        {
+            "title": "Palindrome Linked List",
+            "titleSlug": "palindrome-linked-list",
+            "timestamp": "1654552772",
+            "statusDisplay": "Wrong Answer",
+            "lang": "cpp"
+        },
+        {
+            "title": "Remove Duplicates from Sorted List",
+            "titleSlug": "remove-duplicates-from-sorted-list",
+            "timestamp": "1654548271",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Remove Duplicates from Sorted List",
+            "titleSlug": "remove-duplicates-from-sorted-list",
+            "timestamp": "1654545932",
+            "statusDisplay": "Wrong Answer",
+            "lang": "cpp"
+        },
+        {
+            "title": "Remove Nth Node From End of List",
+            "titleSlug": "remove-nth-node-from-end-of-list",
+            "timestamp": "1654482293",
+            "statusDisplay": "Runtime Error",
+            "lang": "cpp"
+        },
+        {
+            "title": "Remove Nth Node From End of List",
+            "titleSlug": "remove-nth-node-from-end-of-list",
+            "timestamp": "1654481251",
+            "statusDisplay": "Wrong Answer",
+            "lang": "cpp"
+        },
+        {
+            "title": "Delete Node in a Linked List",
+            "titleSlug": "delete-node-in-a-linked-list",
+            "timestamp": "1654463799",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Convert Binary Number in a Linked List to Integer",
+            "titleSlug": "convert-binary-number-in-a-linked-list-to-integer",
+            "timestamp": "1654460526",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Search in a Binary Search Tree",
+            "titleSlug": "search-in-a-binary-search-tree",
+            "timestamp": "1654458187",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        },
+        {
+            "title": "Maximum Depth of Binary Tree",
+            "titleSlug": "maximum-depth-of-binary-tree",
+            "timestamp": "1654457586",
+            "statusDisplay": "Accepted",
+            "lang": "cpp"
+        }
+    ]
+}

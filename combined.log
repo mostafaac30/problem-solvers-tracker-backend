@@ -1,0 +1,182 @@
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:7:24\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:7:24\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'indexOf')\n    at pptr://__puppeteer_evaluation_script__:10:21\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'indexOf')\n    at pptr://__puppeteer_evaluation_script__:11:21\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'indexOf')\n    at pptr://__puppeteer_evaluation_script__:11:21\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:29:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:29:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:29:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:31:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:33:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:40:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:33:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:33:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:33:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:33:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: logger is not defined\n    at pptr://__puppeteer_evaluation_script__:32:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: logger is not defined\n    at pptr://__puppeteer_evaluation_script__:32:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: moment is not defined\n    at pptr://__puppeteer_evaluation_script__:34:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: timeDifference is not defined\n    at pptr://__puppeteer_evaluation_script__:34:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: timeDifference is not defined\n    at pptr://__puppeteer_evaluation_script__:34:11\n    at Array.map (<anonymous>)\n    at pptr://__puppeteer_evaluation_script__:3:19"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: parsingRow is not defined\n    at pptr://__puppeteer_evaluation_script__:3:23"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: parsingRow is not defined\n    at pageEvaluate (pptr://__puppeteer_evaluation_script__:3:19)"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: parsingRow is not defined\n    at pageEvaluate (pptr://__puppeteer_evaluation_script__:3:19)"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: parsingRow is not defined\n    at pageEvaluate (pptr://__puppeteer_evaluation_script__:3:19)"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Evaluation failed: ReferenceError: parsingRow is not defined\n    at pptr://__puppeteer_evaluation_script__:3:23"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 16 solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Cannot read properties of undefined (reading 'indexOf')"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 15 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 1 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 1 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 1 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Cannot access 'previousUserData' before initialization"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped 1 solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Cannot read properties of undefined (reading 'recentSubmissionList')"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Cannot read properties of undefined (reading 'userStatus')"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"error","message":"Error scraping solved problems for user: Mostafa_M. Error: Cannot read properties of undefined (reading 'userStatus')"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped solved problems for user: Mostafa_M"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped solved problems for user: Mostafa_M"}
+{"level":"info","message":"Server listening on port 3000"}
+{"level":"info","message":"Received request for solved problems for user: Mostafa_M"}
+{"level":"info","message":"Scraped solved problems for user: Mostafa_M"}
