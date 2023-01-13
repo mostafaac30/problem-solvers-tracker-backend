@@ -30,7 +30,7 @@ router.post('/forget-password', [
 });
 router.post('/reset-password', [
     check('email', 'Please enter a valid email').isEmail(),
-    check('otp', 'Please enter a valid otp').isLength({ min: 4, max: 4 }),
+    check('otp', 'Please enter a valid otp').isLength({ min: 4, max: 4 }).isNumeric(),
     check('password', 'Please enter a password length more than 5').isLength({ min: 6 })
 
 ], (req, res) => {
