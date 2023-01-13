@@ -14,8 +14,8 @@ const validationChain = [
 ];
 
 
-const skipPasswordField = (req, res, next) => {
-    req.query.select = "-password";
+const skipPrivateFields = (req, res, next) => {
+    req.query.select = "-password -otp -otpExpire";
     next();
 };
 
@@ -28,8 +28,8 @@ router.post(routerPath, validationChain, (req, res) => {
     controller.create(userModel)(req, res);
 });
 
-router.get(routerPath, skipPasswordField, controller.find(userModel));
-router.get(routerPath + '/:id', skipPasswordField, controller.findOne(userModel));
+router.get(routerPath, skipPrivateFields, controller.find(userModel));
+router.get(routerPath + '/:id', skipPrivateFields, controller.findOne(userModel));
 
 router.put(routerPath + '/:id', validationChain, (req, res) => {
     const errors = validationResult(req);

@@ -38,6 +38,12 @@ const userSchema = new mongoose.Schema({
     totalSolvedProblems: {
         type: Number,
         required: false
+    },
+    otp: {
+        type: String,
+    },
+    otpExpire: {
+        type: Date,
     }
 });
 
